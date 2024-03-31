@@ -7,3 +7,7 @@
 ### 02 Kartu Ku
 [Project Kartuku](https://github.com/adiwp/MobileProjects/tree/main/kartu_ku)
 <img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/kartu_ku/images/kartu_ku.png" width="250">
+
+### 03 Lempar Dadu
+[Project Lempar Dadu](https://github.com/adiwp/MobileProjects/tree/main/lempar_dadu)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/lempar_dadu/images/lempar_dadu.png" width="250">
