@@ -11,3 +11,7 @@
 ### 03 Lempar Dadu
 [Project Lempar Dadu](https://github.com/adiwp/MobileProjects/tree/main/lempar_dadu)
 <img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/lempar_dadu/images/lempar_dadu.png" width="250">
+
+### 04 Tanya Daku Apa Saja
+[Project Tanya Daku](https://github.com/adiwp/MobileProjects/tree/main/tanya_daku)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/tanya_daku/images/tampilan_02.png" width="250">
