@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(AppDadu());
+  runApp(const AppDadu());
 }
 
 class AppDadu extends StatelessWidget {
@@ -24,7 +24,7 @@ class AppDadu extends StatelessWidget {
           ),
           backgroundColor: Colors.blue,
         ),
-        body: HalamanDadu(),
+        body: const HalamanDadu(),
       ),
     );
   }
