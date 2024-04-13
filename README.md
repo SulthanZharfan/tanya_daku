@@ -18,4 +18,4 @@
 
 ### 05 Xylophone Apps
 [Project Xylophone](https://github.com/adiwp/MobileProjects/tree/main/xylophone)
-<img src="https://github.com/adiwp/MobileProjects/tree/main/xylophone/assets/images/xylophoneapps.png" width="250">
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/xylophone/assets/images/xylophoneapps.png" width="250">
