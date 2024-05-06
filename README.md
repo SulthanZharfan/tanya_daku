@@ -22,4 +22,4 @@
 
 ### 06 Quiz Benar Salah
 [Project Quiz Benar Salah](https://github.com/adiwp/MobileProjects/tree/main/quizzler)
-<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/tree/main/quizzler/assets/images/quiz-benar-salah.png" width="250">
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/quizzler/assets/images/quiz-benar-salah.png" width="250">
