@@ -44,7 +44,7 @@ class QuizBrain {
   }
 
   //TODO: Menghitung jumlah pertanyaan
-  int getTotalQuestinos() {
+  int getTotalQuestions() {
     return _questionBank.length;
   }
   //TODO: Step 4 Part B - Create a reset() method that sets the questionNumber back to 0

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quizzler/quiz_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
-// membuat object quizbrain
+// membuat object quizBrain
 QuizBrain quizBrain = QuizBrain();
 
 // main Method
@@ -37,11 +37,15 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+  // array/list untuk menyimpan score, berupa Icon check or close.
   List<Icon> scoreKeeper = [];
+
   // menghitung jawaban benar dan salah
   int numCorrect = 0;
   int numIncorrect = 0;
 
+  // fungsi mengecek jawaban dari user (parameter userPickedAnswer)
+  // ke jawaban dari daftar pertanyaan (list questions/_questionBanks)
   void checkAnswer(bool userPickedAnswer) {
     bool correctAnswer = quizBrain.getCorrectAnswer();
 
@@ -57,7 +61,7 @@ class _QuizPageState extends State<QuizPage> {
           desc: 'You\'ve reached the end of the Quiz\n'
           'Correct Answers: $numCorrect\n'
           'Incorrect Answers: $numIncorrect\n'
-          'Total Questions: ${quizBrain.getTotalQuestinos()}',
+          'Total Questions: ${quizBrain.getTotalQuestions()}',
         ).show();
 
         quizBrain.reset();
