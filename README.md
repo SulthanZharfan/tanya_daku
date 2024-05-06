@@ -19,3 +19,7 @@
 ### 05 Xylophone Apps
 [Project Xylophone](https://github.com/adiwp/MobileProjects/tree/main/xylophone)
 <img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/xylophone/assets/images/xylophoneapps.png" width="250">
+
+### 06 Quiz Benar Salah
+[Project Quiz Benar Salah](https://github.com/adiwp/MobileProjects/tree/main/quizzler)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/tree/main/quizzler/assets/images/quiz-benar-salah.png" width="250">
