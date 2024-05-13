@@ -23,3 +23,7 @@
 ### 06 Quiz Benar Salah
 [Project Quiz Benar Salah](https://github.com/adiwp/MobileProjects/tree/main/quizzler)
 <img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/quizzler/assets/images/quiz-benar-salah.png" width="250">
+
+### 07 Aplikasi Destini
+[Project Destini](https://github.com/adiwp/MobileProjects/tree/main/destini_app)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/destini_app/images/destini_app.png" width="250">
