@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = 'https://latihan.majuraya.com'; // Sesuaikan dengan base URL Anda
+  final String baseUrl = 'https://latihan.majuraya.com';
 
   Future<String> postData(Map<String, dynamic> data) async {
     try {
