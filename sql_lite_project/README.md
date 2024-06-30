@@ -2,6 +2,21 @@
 
 Ini adalah aplikasi Flutter sederhana untuk mengelola data mahasiswa menggunakan SQLite sebagai database lokal. Aplikasi ini mencakup fitur untuk menambah mahasiswa baru, mengedit informasi mahasiswa, dan menghapus data mahasiswa. Aplikasi ini juga memiliki layar login untuk admin.
 
+## Tampilan Aplikasi
+
+### Halaman Login
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/sql_lite_project/documentation/ss_login.png" width="250px">
+
+### Halaman Utama (Daftar Mahasiswa)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/sql_lite_project/documentation/ss_home.png" width="250px">
+
+### Halaman Tambah Mahasiswa
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/sql_lite_project/documentation/ss_tambah_mahasiswa.png" width="250px">
+
+### Halaman Edit Mahasiswa
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/sql_lite_project/documentation/ss_edit_mahasiswa.png" width="250px">
+
+
 ## Fitur
 
 - Login admin
@@ -109,47 +124,47 @@ Mendefinisikan widget StudentFormPage yang menyediakan formulir untuk menambah a
   ```
   Method createTables digunakan untuk membuat tabel students jika belum ada. Tabel ini memiliki kolom id, name, email, major, dan origin.
 - Operasi CRUD
-  - **Insert**
-    ```dart
-     Future<void> insertStudent(Map<String, dynamic> student) async {
-      final db = await database;
-      db.execute('''
-      INSERT INTO students (name, email, major, origin) VALUES (?, ?, ?, ?)
-      ''', [student['name'], student['email'], student['major'], student['origin']]);
-     }
-    ```
-    Method insertStudent digunakan untuk menambahkan data mahasiswa baru ke dalam tabel students.
-  - **Read**
-    ```dart
-     Future<List<Map<String, dynamic>>> getStudents() async {
-      final db = await database;
-      final result = db.select('SELECT * FROM students');
-      return result.map((row) => {
-        'id': row['id'],
-        'name': row['name'],
-        'email': row['email'],
-        'major': row['major'],
-        'origin': row['origin']
-      }).toList();
-     }
-    ```
-    Method getStudents digunakan untuk mengambil semua data mahasiswa dari tabel students.
-  - **Update**
-    ```dart
-     Future<void> updateStudent(Map<String, dynamic> student) async {
-      final db = await database;
-      int id = int.parse(student['id']);
-      db.execute('''
-         UPDATE students SET name = ?, email = ?, major = ?, origin = ? WHERE id = ?
-         ''', [student['name'], student['email'], student['major'], student['origin'], id]);
-     }
-    ```
-    Method updateStudent digunakan untuk memperbarui data mahasiswa yang ada dalam tabel students.
-  - **Delete**
-    ```dart
-     Future<void> deleteStudent(int id) async {
-      final db = await database;
-      db.execute('DELETE FROM students WHERE id = ?', [id]);
-     }
-    ```
-    Method deleteStudent digunakan untuk menghapus data mahasiswa dari tabel students berdasarkan id.
+   - **Insert**
+     ```dart
+      Future<void> insertStudent(Map<String, dynamic> student) async {
+       final db = await database;
+       db.execute('''
+       INSERT INTO students (name, email, major, origin) VALUES (?, ?, ?, ?)
+       ''', [student['name'], student['email'], student['major'], student['origin']]);
+      }
+     ```
+     Method insertStudent digunakan untuk menambahkan data mahasiswa baru ke dalam tabel students.
+   - **Read**
+     ```dart
+      Future<List<Map<String, dynamic>>> getStudents() async {
+       final db = await database;
+       final result = db.select('SELECT * FROM students');
+       return result.map((row) => {
+         'id': row['id'],
+         'name': row['name'],
+         'email': row['email'],
+         'major': row['major'],
+         'origin': row['origin']
+       }).toList();
+      }
+     ```
+     Method getStudents digunakan untuk mengambil semua data mahasiswa dari tabel students.
+   - **Update**
+     ```dart
+      Future<void> updateStudent(Map<String, dynamic> student) async {
+       final db = await database;
+       int id = int.parse(student['id']);
+       db.execute('''
+          UPDATE students SET name = ?, email = ?, major = ?, origin = ? WHERE id = ?
+          ''', [student['name'], student['email'], student['major'], student['origin'], id]);
+      }
+     ```
+     Method updateStudent digunakan untuk memperbarui data mahasiswa yang ada dalam tabel students.
+   - **Delete**
+     ```dart
+      Future<void> deleteStudent(int id) async {
+       final db = await database;
+       db.execute('DELETE FROM students WHERE id = ?', [id]);
+      }
+     ```
+     Method deleteStudent digunakan untuk menghapus data mahasiswa dari tabel students berdasarkan id.

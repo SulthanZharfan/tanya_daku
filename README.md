@@ -27,3 +27,7 @@
 ### 07 Aplikasi Destini
 [Project Destini](https://github.com/adiwp/MobileProjects/tree/main/destini_app)
 <img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/destini_app/images/destini_app.png" width="250">
+
+### Manajemen Mahasiswa
+[Project Destini](https://github.com/adiwp/MobileProjects/tree/main/sql_lite_project)
+<img src="https://raw.githubusercontent.com/adiwp/MobileProjects/main/sql_lite_project/documentation/ss_home.png" width="250px">
