@@ -56,6 +56,7 @@ Seru digunakan untuk menanyakan pertanyaan seperti "Apakah saya akan beruntung h
 
 ## Screen Shot Hasil
 ![tanyadaku1](https://github.com/user-attachments/assets/cb5d6117-7e7e-4b4f-9c7c-59f1bcfd5fd9)
+
 ![tanyadaku2](https://github.com/user-attachments/assets/d7cc5d90-0bcc-4707-aa5c-89e34c041d5f)
 
 
