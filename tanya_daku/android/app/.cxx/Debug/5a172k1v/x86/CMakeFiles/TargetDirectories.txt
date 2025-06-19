@@ -1,0 +1,2 @@
+E:/KULIAH/Universitas Pancasila/Semester 6/Prak.PBM/tanya_daku/MobileProjects/tanya_daku/android/app/.cxx/Debug/5a172k1v/x86/CMakeFiles/edit_cache.dir
+E:/KULIAH/Universitas Pancasila/Semester 6/Prak.PBM/tanya_daku/MobileProjects/tanya_daku/android/app/.cxx/Debug/5a172k1v/x86/CMakeFiles/rebuild_cache.dir
